@@ -1,0 +1,383 @@
+
+body{
+	padding:0px;
+	margin:0px;
+	padding-top : 0px;
+	margin-top:0px;
+}
+.welcome{
+	background-color : #87509c;
+	width : 100%;
+	color : white;
+	height:100%;
+	overflow: hidden;
+}
+.services{
+	background-color : #17c2a4;
+	width : 100%;
+	overflow: hidden;
+}
+.team{
+	background-color : #e7f1f8;
+	color: #3c4761;
+	width : 100%;
+	overflow: hidden;
+}
+.skills{
+	background-color : #ffffff;
+	width : 100%;
+	overflow: hidden;
+}
+.portfolio{
+	background-color : #ffdd99;
+	width : 100%;
+	overflow: hidden;
+	color : #393939;
+}
+.people{
+	background-color : #d74680;
+	width : 100%;
+	overflow: hidden;
+}
+.touch{
+	background-color : #3c5499;
+	width : 100%;
+	overflow-y: hidden;
+	color: white;
+}
+.welcome_top_line{
+	text-align: center;
+	float: left;
+	width:50%;
+	min-width: 350px;
+	color : white;
+	height: 40px;
+	margin-top:20px;
+}
+.welcome_text{
+	text-indent : 12px;
+	text-align: center;
+	margin-left : 30%;
+	margin-right : 30%;
+}
+.welcome_link{
+	
+	color : white;
+	text-decoration : none;
+	padding: 10px 10px;
+	margin: 5px 5px;
+}
+.welcome_link:hover{
+	background-color:#643a79;
+}
+.welcome_cuda{
+	text-align: center;
+	float: left;
+	width:50%;
+	min-width: 350px;
+	color : white;
+	height: 40px;
+	margin-top:13px;
+	font-style: oblique;
+	font-size:30px;
+	font-family:impact;
+
+}
+.service_title{
+	width : 100%;
+	min-width : 100%;
+	color : white;
+	text-align : center;
+	text-transform:uppercase;
+}
+.centered_line{
+	width:100px;
+	border-bottom: 2px solid #14a58c;
+}
+.service_text{
+	color : white;
+	text-indent : 12px;
+	text-align: center;
+}
+.service_container{
+	padding-left:10%;
+	padding-right:10%;
+}
+.service{
+	width:20%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display : inline-block;
+	text-align : center;
+	min-width: 200px;
+	padding-bottom:30px;
+	padding-top:20px;
+	vertical-align:top;
+	
+}
+.service_secondary_title{
+	text-align:middle;
+	color:white;
+	width: 100%;
+}
+.service_secondary_text{
+	width:100%;
+	
+}
+.team_title{
+	
+	text-transform:uppercase;
+	text-align: center;
+	color: #3c4761;
+}
+
+.centered_line_darkblue{
+	width:100px;
+	border-bottom: 2px solid #3c4761;
+}
+.team_text{
+	color: #47526b;
+	text-align: center;
+	width:100%;
+}
+.team_container{
+	padding-top:20px;
+	padding-left:10%;
+	padding-right:10%;
+}
+.team_member{
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	width: 20%;
+	margin-left:2%;
+	margin-right:2%;
+	min-width: 200px;
+}
+.team_member_picture{
+	height:150px;
+	margin-bottom:10px;
+}
+.team_member_name{
+	height:10px;
+	margin-bottom:10px;
+	color: #3c4761;
+	text-transform:uppercase;
+}
+.team_member_title{
+	height:10px;
+	margin-bottom:10px;
+	color: #30bae7;
+}
+.resize{
+	border-radius:100%;
+	height: 150px;
+	width: 150px;
+}
+.team_member_text{
+	color: #47526b;
+	height:85px;
+}
+.portfolio_title{
+	text-transform:uppercase;
+	text-align: center;
+}
+.portfolio_line{
+	width:100px;
+	border-bottom: 2px solid #e5c37f;
+}
+
+.portfolio_text{
+	text-align : center;
+	width: 50%;
+	word-wrap:break-word;
+	display:inline-block;
+	padding-left:25%;
+	padding-right:25%;
+	
+}
+.portfolio_buttons{
+	padding-top:20px;
+	text-align:center;
+	width:100%;
+	height: 20px;
+	
+}
+.portfolio_button{
+	text-decoration : none;
+	padding: 10px 10px;
+	background-color: #ebc985;
+	margin: 5px 5px;
+	
+}
+.portfolio_button:hover{
+	background-color: #ffffff;
+}
+.portfolio_container{
+	text-align:center;
+	padding-top: 40px;
+}
+.portfolio_example{
+	width:50%;
+	min-width: 500px;
+	float:left;
+}
+.portfolio_example_picture{
+	padding-bottom:10px;
+	
+}
+.portfolio_example_text{
+	text-transform:uppercase;
+	padding-bottom: 25px;
+}
+.skills_title{
+	width: 100%;
+	color: #3c4761;
+	text-align:center;
+	text-transform:uppercase;
+}
+.skills_colored_line{
+	color: #dfe8ed;
+	width:100px;
+}
+.skills_text{
+	color: #3c4761;
+	text-align : center;
+	width: 50%;
+	word-wrap:break-word;
+	padding-left:25%;
+	padding-right:25%;
+}
+.skills_container{
+	width:100%;
+	text-align:center;
+}
+.skill_example{
+	text-align:center;
+	padding-top:20px;
+	display:inline-block;
+	width:20%;
+	min-width: 200px;
+	margin-left:20px;
+	margin-right:20px;
+	height:200px;
+}
+.skill_example_picture{}
+.skills_example_text{
+	color : #3c4761;
+}
+.people_title{
+	width:100%;
+	text-transform: uppercase;
+	text-align:center;
+	color: white;
+}
+.people_colored_line{
+	width: 100px;
+	color : #b73c6d;
+}
+.people_text{
+	width:100%;
+	text-align:center;
+	color: white;
+}
+.people_container{
+	width:100%;
+	margin-top:50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.people_example{
+	height: 200px;
+	width: 40%;
+	float:left;
+	min-width:400px;
+}
+.people_example_picture{
+	height: 200px;
+	width: 100px;
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+
+}
+.people_picture_resize{
+	border-radius:100%;
+	height: 100px;
+	width: 100px;
+}
+.people_example_text{
+	width: calc(100% - 140px);
+	float:left;
+}
+.people_example_desc{
+	font-style:italic;
+	margin-bottom:20px;
+	color: white;
+}
+.people_example_name{
+	color:white;
+	text-transform:uppercase;
+	margin-bottom:5px;
+
+}
+.people_example_title{
+	color: #ea8c8c;
+}
+.touch_title{
+	text-transform:uppercase;
+	text-align:center;
+	width:100%;
+}
+.touch_colored_line{
+	width:100px;
+	border-bottom: 2px solid #3c5499;
+}
+.touch_text{
+	text-align:center;
+	width:100%;
+	padding-bottom:30px;
+}
+.touch_form_container{
+	width:100%;
+	text-align:center;
+}
+.touch_form_name{
+	background-color:#3c5499;
+	color:white;
+	display:inline-block;
+	width:20%;
+	padding-left:10px;
+	margin-right:10px;
+}
+.touch_form_email{
+	background-color:#3c5499;
+	color:white;
+	display:inline-block;
+	width:20%;
+	padding-left:10px;
+	margin-left:10px;
+}
+.touch_form_message{
+	margin-top:20px;
+	
+	background-color:#3c5499;
+	color:white;
+	width:calc(40% + 50px);
+	height : 200px;
+}
+.quicklinks{
+	background-color: #344b8e;
+	text-align:center;
+
+}
+.quicklinks_button{
+	text-decoration: none;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 30px;
+	color:white;
+}
+.quicklinks_button:hover{
+	color: #30bae7;
+}
