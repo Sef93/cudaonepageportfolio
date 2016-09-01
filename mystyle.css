@@ -1,5 +1,9 @@
-
+@font-face {
+    font-family: "myFont"; 
+	src: url(font.ttf) format("truetype");
+}
 body{
+	font-family:myFont;
 	padding:0px;
 	margin:0px;
 	padding-top : 0px;
@@ -102,18 +106,22 @@ body{
 .service_container{
 	padding-left:10%;
 	padding-right:10%;
+	min-height:100%;
 }
 .service{
-	width:20%;
-	margin-left: 2%;
-	margin-right: 2%;
-	display : inline-block;
-	text-align : center;
-	min-width: 200px;
-	padding-bottom:30px;
-	padding-top:20px;
+	display:inline-block;
 	vertical-align:top;
-	
+	text-align:center;
+	width: 20%;
+	margin-left:2%;
+	margin-right:2%;
+	min-width: 200px;
+	padding-top:20px;
+	min-height:300px;
+}
+.service_picture_resize{
+	height:145px;
+	width:auto;
 }
 .service_secondary_title{
 	text-align:middle;
